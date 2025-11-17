@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import Welcome from './pages/Welcome';
 import Login from './pages/Login';
 import Register from './pages/Register';
-import Dashboard from './pages/Dashboard';
+import Dashboard from './pages/DashboardNew';
 import './App.css';
 
 function PrivateRoute({ children }) {
