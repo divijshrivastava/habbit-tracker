@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git fetch:*)",
+      "Bash(git checkout:*)",
+      "Bash(git pull:*)",
+      "Bash(npm install)",
+      "Bash(pgrep:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(flyctl auth whoami:*)",
+      "Bash(flyctl launch:*)",
+      "Bash(curl:*)",
+      "Bash(flyctl logs:*)",
+      "Bash(flyctl secrets set:*)",
+      "Bash(flyctl apps restart:*)",
+      "Bash(flyctl machine:*)",
+      "Bash(npx create-react-app frontend)",
+      "Bash(npm install:*)",
+      "Bash(npm start)",
+      "Bash(npm run build:*)",
+      "Bash(vercel:*)",
+      "Bash(flyctl deploy:*)",
+      "Bash(netlify deploy:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
